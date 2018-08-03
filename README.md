@@ -1,25 +1,26 @@
-#  F O O D M A P
+# FOOD • MAP
 
-Web-app que a través de un input filtra los restaurantes que se encuentran cerca de ti.
+Web-app que filtra restaurants usando la API de Google Maps
 
-#### Flujo de la aplicación.
+### Flujo de la aplicación:
 
-Vista splash con duración de 2 segundos que redirecciona a tu vista
-principal.
-![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
+La web-app es responsive iniciando con un screen preload de 2 segundos seguido de la siguiente pantalla:
 
-En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección *(Los criterios de filtrado son decisión
-tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
+1. UBICACIÓN DONDE EL USUARIO ACCEDE A LA WEB Y VISUALIZACIÓN DEL SELECTOR 
+![web-design1](img/readme-web-1.jpg)
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
-![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+2. VISUALIZACIÓN DE LAS OPCIONES A FILTRAR
+![web-design2](img/readme-web-2.jpg)
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
-![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
+3. CARGA DE TODAS LAS OPCIONES DE COMIDA
+![web-design3](img/readme-web-3.jpg)
 
-Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+4. CARGA DEL MODAL CON LA INFORMACIÓN DE LA OPCIÓN ELEGIDA
+![web-design1](img/readme-web-1.jpg)
+
+### Visualización Mobile:
+
+5. VISTAS DE LAS PANTALLAS EN MOBILE 
+![mobile-design](img/readme-mobile.jpg)
+
+**Diseñado en 2018 para @Laboratoria**

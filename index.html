@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-  <title>Food Map</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="/splash/style.css">
-  <link rel="stylesheet" href="map.css">
-  <header id="main-header">
-  <span class="site-name">FOOD 📍🗺️ MAP </span>
-  </header>
-  </head>
-  <body>
-      <div id="page-preloader">
-          <span class="spinner"> FOOD 📍🗺️ MAP </span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <title>FOOD•MAP</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="/splash/style.css">
+        <link rel="stylesheet" href="stylemap.css">
+    </head>
+    <body>
+        <div id="page-preloader">
+         <span class="spinner">FOOD•MAP</span>
         </div>
+        <nav>
+            <div class="nav-wrapper grey darken-3">
+              <a href="#" class="brand-logo light-blue-text text-accent-1">FOOD•MAP</a>
+            </div>
+        </nav>
+        <section>
+            <div class="row container">
+                <div id="map" class="video-container">
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="input-field col s12">
+                <select id="selectRestaurant">
+                    <option value="" disabled selected>¿Qué tipo de restaurant buscas?</option>
+                    <option value="vegetarian">Vegetariano y vegano</option>
+                    <option value="buffet">Buffet & all you can eat</option>
+                    <option value="criollo">Criollo y peruano típico</option>
+                </select>
+            </div>
+        </div>
+        <section>
+            <div class="row container">
+                <div id="photoRestaurant" class="col s12 column">
+                </div>
+            </div>
+        </section>
+
+
+        <script src="mapjs/data.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
         <script src="/splash/splash.js"></script> 
-    <div id="map"></div>
-    <script src="app.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFTo11pLZgxINVfu2JMynktimGYN2mZr0&callback=initMap">
-    </script>
-  </body>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuCzKm91oGNPTEf9aTf4iMhE_u2sgcU9s&callback=initMap"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="mapjs/app.js"></script>
+        <script src="mapjs/maps.js"></script>
+    </body>
 </html>

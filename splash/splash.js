@@ -5,5 +5,5 @@ $(window).on('load', function () {
     $spinner.fadeOut();
         $preloader.delay(350).fadeOut('slow', function () {
         });
-    }, 2000);
+    }, 1000);
 });

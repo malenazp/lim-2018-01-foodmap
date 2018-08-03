@@ -21,5 +21,6 @@
   line-height: 32px; 
   margin: 0 0 72px; 
   text-align: center;
+  z-index: 99;
 }
 
